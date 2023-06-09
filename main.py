@@ -1,4 +1,7 @@
-from dotenv import dotenv_values
+import bot
 
-config = dotenv_values("variables.env")
-print(config['TOKEN']+"")
+if __name__ == '__main__':
+    bot.run_discord_bot()
+
+
+
